@@ -5,7 +5,7 @@
  */
 
 const app = require('../app');
-const debug = require('debug')('tideprovider:server');
+const debug = require('debug')('tideprovider:www');
 const http = require('http');
 const tides = require('../models/tideserver');
 
